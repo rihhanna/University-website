@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ 
+    
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-secondary fixed-top">
+    <a href="index.html"><img src="images/logo.png" ></a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Register.html">Register Now</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+<!-- Header -->
+<header class="jumbotron text-center">
+  <div class="container">
+    <!-- نص الهيدر -->
+    <div class="header-content">
+      <h1>Welcome to our New University</h1>
+      <p class="lead">Any prominent career starts with good education.together with us <br> 
+        you will have an opportunity of getting better and deeper knowledge of the subjects <br>
+        that can build your future.
+      </p>
+    </div>
+    
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="path/to/slide1.jpg" class="d-block w-100" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="path/to/slide2.jpg" class="d-block w-100" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+          <img src="path/to/slide3.jpg" class="d-block w-100" alt="Slide 3">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+  <!-- Content  -->
+  <div class="container">
+    <div class="container about-us">
+      <h2 class="fw-bold text-dark text-center ">About Us</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <h5 class="display-5 text-bold ">Proven Learning Approaches</h5>
+          <p class="text-light">Teaching is one of the most challenging and complex jobs on the planet.Our digital resources, tools, and learning materials are developed by educational experts <br>to incorporate leading pedagogical.</p>
+        </div>
+        <div class="col-md-6 mx-auto">
+          <h5 class="display-5">Empowered Educators</h5>
+          <p class="text-light">From school teachers and tutors to home schoolers and parents, engaged adults are the key to unlocking each child's potential and drive to learn. We empower all kinds of educational resources in any form or device to be used at home, at school, and everywhere in between.</p>
+        </div>
+        <div class="col-md-6 mx-auto">
+          <h5 class="display-5">Unique Experience</h5>
+          <p class="text-light">There is no such thing as 'one size fits all' in education ; each eductor and child has Unique challenges and goals. We celebrate the diversity of
+            our users by offering differentiated resources<br> that can meet a wide range of educational <br>needs -and raise kid's confidence in learning
+          </p>
+        </div>
+        <div class="col-md-6 mx-auto">
+          <h5 class="display-5">conscientious and Supportive</h5>
+          <p class="text-light">We continue to provide academically sound content of the highest caliber and welcome input from our users as we address issues of equity.diversity,inclusivity and representation,since we know there are many different approaches to teaching and education ,we develop our materials to 
+            compliment these different philosophies across subjects and grades.
+          </p>
+        </div>
+      </div>
+    </div>
+    <h2>Our Courses</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="course">
+          <img src="path/to/course1.jpg" alt="Course 1">
+          <div class="course-content">
+            <h4 class="display-5"> Computer Science</h4>
+            <p > Study of computers and algorithmic process,including their principles,their hardware and software designs, </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="course">
+          <img src="path/to/course2.jpg" alt="Course 2">
+          <div class="course-content">
+            <h4 class="display-5">Cyber security</h4>
+            <p>every aspect of protecting an organization and its employees and assets against cyber threats</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="course">
+          <img src="path/to/course3.jpg" alt="Course 3">
+          <div class="course-content">
+            <h4 class="display-5">Data Science</h4>
+            <p>Study of data to extract meaningful insights for business </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--contact-->
+  <section class="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="contact-form">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Rihhana, All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // قم بتعديل الوقت الذي يستغرقه تبديل الشرائح بالثواني
+    var slideInterval = 2000;
+  
+    // احصل على عناصر الشرائح
+    var carouselItems = document.querySelectorAll(".carousel-item");
+  
+    // ابدأ التبديل التلقائي للشرائح
+    var carousel = document.querySelector("#carouselExample");
+    var carouselInstance = new bootstrap.Carousel(carousel, {
+      interval: slideInterval
+    });
+  
+    // تحديث وقت تبديل الشرائح في حال تغييره من قبل المستخدم
+    carousel.addEventListener("slid.bs.carousel", function(event) {
+      var currentSlide = event.to;
+      var currentInterval = carouselInstance._config.interval;
+      if (currentInterval !== slideInterval) {
+        carouselInstance.pause();
+        carouselInstance.interval = slideInterval;
+        carouselInstance.cycle();
+      }
+    });
+  </script>
+</body>
+</html>
